@@ -225,7 +225,7 @@ EOF
   show_notice "vmess ws 通用链接参数" 
   echo ""
   echo ""
-  echo "以下为vmess链接，替换38.244.1.15为自己的优选ip可获得极致体验"
+  echo "以下为vmess链接，替换speed.cloudflare.com为自己的优选ip可获得极致体验"
   echo ""
   echo ""
   echo 'vmess://'$(echo '{"add":"38.244.1.15","aid":"0","host":"'$argo'","id":"'$vmess_uuid'","net":"ws","path":"'$ws_path'","port":"443","ps":"sing-box-vmess-tls","tls":"tls","type":"none","v":"2"}' | base64 -w 0)
@@ -684,7 +684,7 @@ if [ -f "/root/sbox/sbconfig_server.json" ] && [ -f "/root/sbox/sing-box" ] && [
           # show client configuration
           show_client_configuration
           exit 0
-      ;;  
+      ;;        
       4)
           uninstall_singbox
           exit 0
@@ -713,8 +713,8 @@ if [ -f "/root/sbox/sbconfig_server.json" ] && [ -f "/root/sbox/sing-box" ] && [
           echo "Invalid choice. Exiting."
           exit 1
           ;;
-  esac
-  fi
+        esac
+        fi
 
 mkdir -p "/root/sbox/"
 
