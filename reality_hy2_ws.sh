@@ -1,8 +1,3 @@
-
-1688找货源
-
-
-❯
 #!/bin/bash
 
 # Function to print characters with delay
