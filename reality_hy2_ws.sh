@@ -920,3 +920,4 @@ if /root/sbox/sing-box check -c /root/sbox/sbconfig_server.json; then
 else
     echo "Error in configuration. Aborting"
 fi
+
