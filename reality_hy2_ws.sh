@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # Function to print characters with delay
 print_with_delay() {
     text="$1"
@@ -683,7 +684,7 @@ if [ -f "/root/sbox/sbconfig_server.json" ] && [ -f "/root/sbox/sing-box" ] && [
           # show client configuration
           show_client_configuration
           exit 0
-      ;;	
+      ;;  
       4)
           uninstall_singbox
           exit 0
@@ -712,8 +713,8 @@ if [ -f "/root/sbox/sbconfig_server.json" ] && [ -f "/root/sbox/sing-box" ] && [
           echo "Invalid choice. Exiting."
           exit 1
           ;;
-	esac
-	fi
+  esac
+  fi
 
 mkdir -p "/root/sbox/"
 
