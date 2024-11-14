@@ -1,10 +1,4 @@
-
-1688找货源
-
-
-❯
 #!/bin/bash
-
 # Function to print characters with delay
 print_with_delay() {
     text="$1"
